@@ -29,7 +29,7 @@ document.getElementById("location").addEventListener("keyup", forceInputUppercas
 
 // Submit Message
 function message(){
-    msg.innerHTML= 'Your Dispute complaint has been log successfully. <br>Dispute ID: <b>SB12345</b> click <a href="file:///C:/Users/USER/Desktop/Dispute-Resolution-main-main/track0.html"> here</a> to track your complain.';
+    msg.innerHTML= 'Your Dispute complaint has been log successfully. <br>Dispute ID: <b>SB12345</b> click <a href="file:///C:/Users/USER/Documents/Dispute-Resolution-main/track0.html"> here</a> to track your complain.';
     event.preventDefault();
 }
   submit.addEventListener('click', message)
